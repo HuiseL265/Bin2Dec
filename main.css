@@ -1,0 +1,62 @@
+*{
+    font-family: 'Oxanium', cursive;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    color:white;
+    background-color:black;
+}
+.decimal{
+    width:50%;
+    height:100vh;
+    object-fit: cover;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align:center;
+}
+
+.header{
+    display:flex;
+}
+
+.formulario{
+    width:50%;
+    height:100vh;
+    text-align:center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+form{
+    display:flex;
+    margin:0 auto;
+    width:25%;
+    flex-direction: column;
+    justify-content: center;
+}
+form input{
+    height:30px;
+    margin-bottom:10px;
+}
+#bin,#button{
+    background-color:transparent;
+    border-color:black;
+    color:white;
+    outline: 0;
+}
+
+#bin{
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+#button:hover{
+    cursor: pointer;
+    
+}
+
+
+#decimal{
+    font-size:50px;
+}
